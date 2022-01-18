@@ -3,7 +3,7 @@
 #Importamos la librería rospy
 import rospy
 
-#Importamos la libreria que se va a utilizar
+#Importamos los mensajes que se utilizarán
 from std_msgs.msg import String
 
 #Funcion que se ejecuta automaticamente cuando se recibe un mensaje
