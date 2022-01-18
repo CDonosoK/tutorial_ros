@@ -1,4 +1,7 @@
 # TUTORIAL ROS
+Made by Clemente Donoso, 📍 Chile 🇨🇱
+If you want to contribute monetarily to the creation of the project, you can do so via PayPal: https://paypal.me/cdonosok
+
 
 #### [Tutorial 01](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-01)
 Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura bajo el paradigma de comunicación: **Publisher/Subscriber**
