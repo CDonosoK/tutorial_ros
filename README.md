@@ -18,10 +18,10 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
  ---
 
  #### [Tutorial 02](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-02)
- Corresponde a un breve ejemplo de como enviar mensajes personalizados a partir de un nodo de escritura y lectura bajo el paradigma de comunicación: **Publisher/Subscriber**
+ Corresponde a un breve ejemplo de como enviar mensajes personalizados a partir de un nodo de escritura y lectura bajo el paradigma de comunicación: **Publisher/Subscriber** (El mensaje personalizado se define en el archivo *msg/mensajeCustomizado.msg*)
 
- - El **nodoEscritura.py** escribe en el tópico "tutorial02" un mensaje personalizado.
- - El **nodoLectura.py** lee dicho tópico y recibe la información enviada.
+ - El **escritorPersonalizado.py** escribe en el tópico "tutorial02" un mensaje personalizado.
+ - El **lectorPersonalizado.py** lee dicho tópico y recibe la información enviada.
 
  Para su utilización se debe ejecutar los siguientes comandos:
  - **Terminal N°1:** ```roscore```
@@ -31,4 +31,9 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
  ---
 
   #### [Tutorial 03](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-03)
+Corresponde a un breve ejemplo de como utilizar un servicio implementado en un servidor, y así el nodo cliente utiliza la información enviada de vuelta a partir del paradigma de comunicación : **Cliente/Servidor** (El servicio personalizado se define en el archivo *srv/servicioPersonalizado.srv*).
 
+
+ - **Terminal N°1:** ```roscore```
+ - **Terminal N°2:** ```rosrun tutorial-ros servidorPersonalizado.py```
+ - **Terminal N°3:** ```rosrun tutorial-ros clientePersonalizado.py```
