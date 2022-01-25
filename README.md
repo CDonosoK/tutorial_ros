@@ -33,6 +33,8 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
   #### [Tutorial 03](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-03)
 Corresponde a un breve ejemplo de como utilizar un servicio implementado en un servidor, y así el nodo cliente utiliza la información enviada de vuelta a partir del paradigma de comunicación : **Cliente/Servidor** (El servicio personalizado se define en el archivo *srv/servicioPersonalizado.srv*).
 
+- El **servidorPersonalizado.py** es un servidor que recibe un mensaje personalizado y realiza alguna tarea, es importante que el servidor esté corriendo antes del cliente.
+- El **clientePersonalizado.py** es un cliente que utiliza el servicio personalizado para enviar datos
 
  - **Terminal N°1:** ```roscore```
  - **Terminal N°2:** ```rosrun tutorial-ros servidorPersonalizado.py```
