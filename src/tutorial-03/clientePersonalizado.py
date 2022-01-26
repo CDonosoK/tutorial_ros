@@ -21,8 +21,8 @@ def clientePersonalizado(valor1, valor2):
         respuesta = servicio(valor1, valor2)
         return respuesta.resultado
 
-    except rospy.ServiceException(e):
-        print ("Error al llamar al servicio: {0}".format(e))
+    except rospy.ROSInterruptException:
+        rospy.loginfo("Se interrumpió la ejecución del programa")
 
 if __name__ == '__main__':
     valor1 = input("Ingrese el primer valor: ")
