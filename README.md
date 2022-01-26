@@ -48,4 +48,5 @@ Corresponde a un breve ejemplo de como utilizar un servicio implementado en un s
   El código corresponde a como mover el robot en línea recta, para ello se debe ejecutar los siguientes comandos:
 
   - **Terminal N°1:** ```roscore```
-  - **Terminal N°2:** ```rosrun tutorial-ros movimientoLineal.py```
+  - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
+  - **Terminal N°3:** ```rosrun tutorial-ros movimientoLineal.py```
