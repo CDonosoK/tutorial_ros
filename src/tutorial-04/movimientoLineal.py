@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
         #Se llama a la función movimiento
         # Velocidad 10 metros por segundos, distancia de 4 metros, movimiendo hacia adelante
-        movimientoLineal(veloPublisher, 5, 4, False)
+        movimientoLineal(veloPublisher, 10, 4, False)
 
     except rospy.ROSInterruptException:
         rospy.loginfo("Se interrumpió la ejecución del programa")
