@@ -39,3 +39,13 @@ Corresponde a un breve ejemplo de como utilizar un servicio implementado en un s
  - **Terminal N°1:** ```roscore```
  - **Terminal N°2:** ```rosrun tutorial-ros servidorPersonalizado.py```
  - **Terminal N°3:** ```rosrun tutorial-ros clientePersonalizado.py```
+
+ ---
+
+  #### [Tutorial 04](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-04)
+  Corresponde al primer ejemplo para la creación de un robot aspiradora básico, dónde se utiliza el simulador turtlesim para la simulación de un robot en 2 dimensiones.
+  
+  El código corresponde a como mover el robot en línea recta, para ello se debe ejecutar los siguientes comandos:
+
+  - **Terminal N°1:** ```roscore```
+  - **Terminal N°2:** ```rosrun tutorial-ros movimientoLineal.py```
