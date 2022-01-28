@@ -57,3 +57,8 @@ Corresponde a un breve ejemplo de como utilizar un servicio implementado en un s
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros movimientoGiro.py```
   
+  Las siguientes líneas de comando corresponden a como **hacer que el robot se diriga a un objetivo**, para ello se debe ejecutar los siguientes comandos:
+
+  - **Terminal N°1:** ```roscore```
+  - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
+  - **Terminal N°3:** ```rosrun tutorial-ros movimientoObjetivo.py```
