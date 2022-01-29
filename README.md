@@ -42,23 +42,29 @@ Corresponde a un breve ejemplo de como utilizar un servicio implementado en un s
 
  ---
 
-  #### [Tutorial 04](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-04)
-  Corresponde al primer ejemplo para la creación de un robot aspiradora básico, dónde se utiliza el simulador turtlesim para la simulación de un robot en 2 dimensiones.
-  
-  Las siguientes líneas de comando corresponden a como **mover el robot en línea recta**, para ello se debe ejecutar los siguientes comandos:
+#### [Tutorial 04](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-04)
+Corresponde al primer ejemplo para la creación de un robot aspiradora básico, dónde se utiliza el simulador turtlesim para la simulación de un robot en 2 dimensiones.
+
+Las siguientes líneas de comando corresponden a como **mover el robot en línea recta**, para ello se debe ejecutar los siguientes comandos:
 
   - **Terminal N°1:** ```roscore```
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros movimientoLineal.py```
 
-  Las siguientes líneas de comando corresponden a como **hacer que el robot gire en el punto**, para ello se debe ejecutar los siguientes comandos:
+Las siguientes líneas de comando corresponden a como **hacer que el robot gire en el punto**, para ello se debe ejecutar los siguientes comandos:
 
   - **Terminal N°1:** ```roscore```
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros movimientoGiro.py```
   
-  Las siguientes líneas de comando corresponden a como **hacer que el robot se diriga a un objetivo**, para ello se debe ejecutar los siguientes comandos:
+Las siguientes líneas de comando corresponden a como **hacer que el robot se diriga a un objetivo**, para ello se debe ejecutar los siguientes comandos:
 
   - **Terminal N°1:** ```roscore```
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros movimientoObjetivo.py```
+
+Las siguientes líneas de comando corresponden a como **hacer que el robot aparezca inicialmente en una orientación determinada**, para ello se debe ejecutar los siguientes comandos:
+
+  - **Terminal N°1:** ```roscore```
+  - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
+  - **Terminal N°3:** ```rosrun tutorial-ros definirOrientacion.py```
