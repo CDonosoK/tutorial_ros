@@ -74,3 +74,10 @@ Las siguientes líneas de comando corresponden a **la combinación de las funcio
   - **Terminal N°1:** ```roscore```
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros robotLimpiador2D.py```
+
+ ---
+
+#### [Tutorial 05](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-05)
+Corresponde a la creación de un archivo para ejecutar múltiples nodos al mismo tiempo (sin la necesidad de ejecutar roscore), este caso, se utilizará para ejecutar el enterno visual de turtlesim y también los comandos de movimiento del robot.
+
+  - **Terminal N°1:** ```roslaunch tutorial_ros aspiradora2D.launch```

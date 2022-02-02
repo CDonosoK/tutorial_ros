@@ -1,0 +1,4 @@
+<launch>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+    <node name="aspiradora2D" pkg="tutorial_ros" type="robotLimpiador2D.py" />
+</launch>
