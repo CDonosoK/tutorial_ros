@@ -68,3 +68,9 @@ Las siguientes líneas de comando corresponden a como **hacer que el robot apare
   - **Terminal N°1:** ```roscore```
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros definirOrientacion.py```
+
+Las siguientes líneas de comando corresponden a **la combinación de las funciones anteriores para realizar un robot que se mueva por toda la cuadrilla**, para ello se debe ejecutar los siguientes comandos:
+
+  - **Terminal N°1:** ```roscore```
+  - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
+  - **Terminal N°3:** ```rosrun tutorial-ros robotLimpiador2D.py```
