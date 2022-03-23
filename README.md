@@ -15,7 +15,7 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
  - **Terminal N°2:** ```rosrun tutorial-ros nodoEscritura.py```
  - **Termianl N°3:** ```rosrun tutorial-ros nodoLectura.py```
 
- ---
+---
 
  #### [Tutorial 02](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-02)
  Corresponde a un breve ejemplo de como enviar mensajes personalizados a partir de un nodo de escritura y lectura bajo el paradigma de comunicación: **Publisher/Subscriber** (El mensaje personalizado se define en el archivo *msg/mensajeCustomizado.msg*)
@@ -28,7 +28,7 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
  - **Terminal N°2:** ```rosrun tutorial-ros escritorPersonalizado.py```
  - **Termianl N°3:** ```rosrun tutorial-ros lectorPersonalizado.py```
 
- ---
+---
 
   #### [Tutorial 03](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-03)
 Corresponde a un breve ejemplo de como utilizar un servicio implementado en un servidor, y así el nodo cliente utiliza la información enviada de vuelta a partir del paradigma de comunicación : **Cliente/Servidor** (El servicio personalizado se define en el archivo *srv/servicioPersonalizado.srv*).
@@ -40,7 +40,7 @@ Corresponde a un breve ejemplo de como utilizar un servicio implementado en un s
  - **Terminal N°2:** ```rosrun tutorial-ros servidorPersonalizado.py```
  - **Terminal N°3:** ```rosrun tutorial-ros clientePersonalizado.py```
 
- ---
+---
 
 #### [Tutorial 04](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-04)
 Corresponde al primer ejemplo para la creación de un robot aspiradora básico, dónde se utiliza el simulador turtlesim para la simulación de un robot en 2 dimensiones.
@@ -75,9 +75,18 @@ Las siguientes líneas de comando corresponden a **la combinación de las funcio
   - **Terminal N°2:** ```rosrun turtlesim turtlesim_node```
   - **Terminal N°3:** ```rosrun tutorial-ros robotLimpiador2D.py```
 
- ---
+---
 
 #### [Tutorial 05](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-05)
 Corresponde a la creación de un archivo para ejecutar múltiples nodos al mismo tiempo (sin la necesidad de ejecutar roscore), este caso, se utilizará para ejecutar el enterno visual de turtlesim y también los comandos de movimiento del robot.
 
   - **Terminal N°1:** ```roslaunch tutorial_ros aspiradora2D.launch```
+
+---
+
+#### [Tutorial 06](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-06)
+Corresponde a la lectura de una imagen mediante la librería de python OpenCV (no se utilizará ROS en este tutorial) y así la verificación de que la instalación de OpenCV esté correcta. Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+  - **Terminal N°1:** ``` python lecturaArchivo.py```
+
+---
