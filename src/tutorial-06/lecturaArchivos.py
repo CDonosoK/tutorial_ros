@@ -18,4 +18,19 @@ cv2.waitKey(0)
 #Se guarda una imagen copiada en la carpeta Imagenes
 cv2.imwrite("./Imagenes/"+nombreImagen+"_copia.png", imagen)
 
+#Si queremos saber la forma de la imagen se puede realizar 
+#donde se entrega una tupla con el número de filas (alto), columnas (ancho) y canales
+print(imagen.shape)
+
+#Si se desea saber el tamaño (píxeles) de la imagen se puede realizar 
+#Multiplicación del alto por el ancho
+print(imagen.size)
+
+#Si se desea acceder a un pixel en específico se puede realizar
+#Por ejemplo se accederá al pixel en la fila 10 y columna 3
+print(imagen[10][3])
+
+#Si se desea acceder a un canal en específico se puede realizar
+#Por ejemplo se accederá al canal 0
+print(imagen[:, :, 0])
 
