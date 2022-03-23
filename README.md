@@ -84,9 +84,22 @@ Corresponde a la creación de un archivo para ejecutar múltiples nodos al mismo
 
 ---
 
-#### [Tutorial 06](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-06)
+#### [Tutorial 06 [OPCIONAL]](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-06)
 Corresponde a la lectura de una imagen mediante la librería de python OpenCV (no se utilizará ROS en este tutorial) y así la verificación de que la instalación de OpenCV esté correcta. Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+El archivo **lecturaArchivo.py** corresponde a la lectura de una imagen guardada en memoria.
 
   - **Terminal N°1:** ``` python lecturaArchivo.py```
 
+El siguiente archivo corresponde a verificar si se puede analizar una imagen en diversas codificaciones, para ello se debe ejecutar el siguiente comando:
+
+  - **Terminal N°1:** ```python lecturaImagen_Color.py```
+
+El siguiente archivo corresponde a la observación de un video (ya sea en memoria o stream) y mostrar ciertas funcionalidades de OpenCV como lo es cambiar a escala de grises:
+
+  - **Terminal N°1:** ```python lecturaCamara.py```
+
+El siguiente archivo corresponde a dibujar elementos o figuras en una imagen o video:
+
+  - **Terminal N°1:** ```python dibujarElementos.py```
 ---

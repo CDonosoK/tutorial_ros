@@ -12,7 +12,7 @@ cv2.namedWindow("Mi primera Ventana", cv2.WINDOW_AUTOSIZE)
 cv2.imshow("Mi primera Ventana", imagen)
 
 #Para que la ventana no se cierre automáticamente
-#Debemos apretar la tecla 0 para continuar.
+#Debemos apretar cualquier tecla para continuar.
 cv2.waitKey(0)
 
 #Se guarda una imagen copiada en la carpeta Imagenes
