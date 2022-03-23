@@ -4,8 +4,9 @@ import numpy as np
 import cv2
 
 #Se lee la imagen que está en la carpeta Imagenes
+#El segundo valor indica el tipo de imagen que se va a leer
 nombreImagen = "OpenCV_Logo"
-imagen = cv2.imread("./Imagenes/"+nombreImagen+".png")
+imagen = cv2.imread("./Imagenes/"+nombreImagen+".png", cv2.IMREAD_COLOR)
 
 #Se crea la ventana
 cv2.namedWindow("Mi primera Ventana", cv2.WINDOW_AUTOSIZE)
