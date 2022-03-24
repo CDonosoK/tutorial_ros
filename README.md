@@ -102,4 +102,12 @@ El siguiente archivo corresponde a la observación de un video (ya sea en memori
 El siguiente archivo corresponde a dibujar elementos o figuras en una imagen o video:
 
   - **Terminal N°1:** ```python dibujarElementos.py```
+
+---
+
+#### [Tutorial 07](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-07)
+Corresponde a la integración de OpenCV con ROS mediante CvBridge:
+ - **Terminal N°1:** ```roscore```
+ - **Terminal N°2:** ```rosrun tutorial_ros cameraROS.py```
+
 ---
