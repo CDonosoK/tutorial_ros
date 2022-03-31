@@ -115,6 +115,7 @@ Corresponde a la integración de OpenCV con ROS mediante CvBridge:
 
 #### [Tutorial 08](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-08)
 Corresponde a la utilización de la técnica de Thresholding para la segmentación de una imagen. Se probará la técnica Thresholding Básica y Thresholding Adaptada.
- - **Terminal N°1:** ```roscore```
- - **Terminal N°2:** ```rosrun usb_cam usb_cam_node```
- - **Terminal N°3:** ```rosrun tutorial_ros ejemploThresholding.py```
+
+Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+ - **Terminal N°3:** ```python ejemploThresholding.py```
