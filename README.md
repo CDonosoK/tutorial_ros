@@ -108,6 +108,13 @@ El siguiente archivo corresponde a dibujar elementos o figuras en una imagen o v
 #### [Tutorial 07](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-07)
 Corresponde a la integración de OpenCV con ROS mediante CvBridge:
  - **Terminal N°1:** ```roscore```
- - **Terminal N°2:** ```rosrun tutorial_ros cameraROS.py```
+ - **Terminal N°2:** ```rosrun usb_cam usb_cam_node```
+ - **Terminal N°3:** ```rosrun tutorial_ros cameraROS.py```
 
 ---
+
+#### [Tutorial 08](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-08)
+Corresponde a la utilización de la técnica de Thresholding para la segmentación de una imagen. Se probará la técnica Thresholding Básica y Thresholding Adaptada.
+ - **Terminal N°1:** ```roscore```
+ - **Terminal N°2:** ```rosrun usb_cam usb_cam_node```
+ - **Terminal N°3:** ```rosrun tutorial_ros ejemploThresholding.py```
