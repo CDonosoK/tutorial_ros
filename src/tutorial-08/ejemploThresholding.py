@@ -20,7 +20,7 @@ def thresholdingBasico(imagenGris, valorThreshold):
 
 #Función para realizar el thersholding adaptado
 def thresholdingAdaptado(imagenGris, valorThreshold):
-    imagenGris = cv2.adaptiveThreshold(imagenGris, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, valorThreshold, 2)
+    imagenGris = cv2.adaptiveThreshold(imagenGris, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, valorThreshold, 2)
     cv2.imshow("Imagen Threshold Adaptado", imagenGris)
 
 
