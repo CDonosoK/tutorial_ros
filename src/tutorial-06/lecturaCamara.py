@@ -2,15 +2,14 @@
 import numpy as np
 import cv2
 
-
-video = cv2.VideoCapture().open('http://192.168.0.22:8080/') #Para acceder a la WebCam vía WiFi
-#video = cv2.VideoCapture(-1) #Para acceder a la WebCam
-#video = cv2.VideoCapture('./Videos/pelotaTenis.mp4') #Para acceder a un video
+video = cv2.VideoCapture(-1) #Para acceder a la WebCam
+video.open('http://192.168.0.22:8080') #Para acceder a la WebCam vía WiFi
+#video = cv2.VideoCapture('./Videos/pelotaTenis.mp4')
 
 while True:
     #Se obtienen los frames (imagen tras imagen)
     ret, frame = video.read()
-    cv2.namedWindow("Video", cv2.WINDOW_AUTOSIZE)
+    cv2.namedWindow("Video", cv2.WINDOW_NORMAL)
 
     #Se cambia la imagen a escala de grises
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
