@@ -2,9 +2,10 @@
 import numpy as np
 import cv2
 
-#video = cv2.VideoCapture(0) Para acceder a la WebCam
-#Para acceder a un archivo de video
-video = cv2.VideoCapture('./Videos/pelotaTenis.mp4')
+
+video = cv2.VideoCapture().open('http://192.168.0.22:8080/') #Para acceder a la WebCam vía WiFi
+#video = cv2.VideoCapture(-1) #Para acceder a la WebCam
+#video = cv2.VideoCapture('./Videos/pelotaTenis.mp4') #Para acceder a un video
 
 while True:
     #Se obtienen los frames (imagen tras imagen)

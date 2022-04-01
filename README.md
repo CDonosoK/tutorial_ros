@@ -95,7 +95,7 @@ El siguiente archivo corresponde a verificar si se puede analizar una imagen en 
 
   - **Terminal N°1:** ```python lecturaImagen_Color.py```
 
-El siguiente archivo corresponde a la observación de un video (ya sea en memoria o stream) y mostrar ciertas funcionalidades de OpenCV como lo es cambiar a escala de grises:
+El siguiente archivo corresponde a la observación de un video (ya sea en memoria o stream) y mostrar ciertas funcionalidades de OpenCV como lo es cambiar a escala de grises.
 
   - **Terminal N°1:** ```python lecturaCamara.py```
 
