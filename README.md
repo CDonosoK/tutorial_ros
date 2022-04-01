@@ -119,3 +119,12 @@ Corresponde a la utilización de la técnica de Thresholding para la segmentaci�
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
  - **Terminal N°3:** ```python ejemploThresholding.py```
+
+ ---
+
+#### [Tutorial 09](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-09)
+Corresponde a la utilización del formato HSV para detectar un color en específico dentro de una imagen, y luego utilizar una máscara para resaltarlo.
+
+Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+ - **Terminal N°3:** ```python filtrarColor.py```
