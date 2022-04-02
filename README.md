@@ -128,3 +128,13 @@ Corresponde a la utilización del formato HSV para detectar un color en específ
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
  - **Terminal N°3:** ```python filtrarColor.py```
+
+ ---
+
+#### [Tutorial 10](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-10)
+Corresponde a la utilización de la técnica de detección de contornos en una imagen a través de un threshold adaptado o básico. Luego también se cuenta con una función auxiliar
+para el procesamiento de los contornos, por ejemplo, calcular el área de la figura.
+
+Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+ - **Terminal N°3:** ```python contornoImagen.py```
