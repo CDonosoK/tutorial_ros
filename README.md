@@ -131,10 +131,23 @@ Además es necesario ejecutar el archivo directamente desde la carpeta en donde 
 
  ---
 
-#### [Tutorial 10](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-10)
+#### [Tutorial 10 [OPCIONAL]](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-10)
 Corresponde a la utilización de la técnica de detección de contornos en una imagen a través de un threshold adaptado o básico. Luego también se cuenta con una función auxiliar
 para el procesamiento de los contornos, por ejemplo, calcular el área de la figura.
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
  - **Terminal N°3:** ```python contornoImagen.py```
+
+ ---
+
+#### [Tutorial 11](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-11)
+Corresponde a la unión de los últimos 3 tópicos, para identificar una pelota dentro de la imagen, detectar sus contornos y resaltar el centro de esta misma.
+
+Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+ - **Terminal N°3:** ```python resaltarPelota.py```
+
+Luego con el siguiente comando, se puede traquear la pelota dentro de un video.
+
+ - **Terminal N°3:** ```python traquearPelota.py```
