@@ -120,7 +120,7 @@ Corresponde a la utilización de la técnica de Thresholding para la segmentaci�
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
- - **Terminal N°3:** ```python ejemploThresholding.py```
+ - **Terminal N°1:** ```python ejemploThresholding.py```
 
  ---
 
@@ -129,7 +129,7 @@ Corresponde a la utilización del formato HSV para detectar un color en específ
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
- - **Terminal N°3:** ```python filtrarColor.py```
+ - **Terminal N°1:** ```python filtrarColor.py```
 
  ---
 
@@ -139,7 +139,7 @@ para el procesamiento de los contornos, por ejemplo, calcular el área de la fig
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
- - **Terminal N°3:** ```python contornoImagen.py```
+ - **Terminal N°1:** ```python contornoImagen.py```
 
  ---
 
@@ -148,8 +148,8 @@ Corresponde a la unión de los últimos 3 tópicos, para identificar una pelota 
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
- - **Terminal N°3:** ```python resaltarPelota.py```
+ - **Terminal N°1:** ```python resaltarPelota.py```
 
 Luego con el siguiente comando, se puede traquear la pelota dentro de un video.
 
- - **Terminal N°3:** ```python traquearPelota.py```
+ - **Terminal N°2:** ```python traquearPelota.py```
