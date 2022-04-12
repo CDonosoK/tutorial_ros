@@ -153,3 +153,10 @@ Además es necesario ejecutar el archivo directamente desde la carpeta en donde 
 Luego con el siguiente comando, se puede traquear la pelota dentro de un video.
 
  - **Terminal N°2:** ```python traquearPelota.py```
+
+#### [Tutorial 12](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-12)
+Corresponde a la unión de los últimos 3 tópicos, para identificar una pelota dentro de la imagen, detectar sus contornos y resaltar el centro de esta misma.
+
+Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
+
+ - **Terminal N°1:** ```python camaraProfundidad.py```
