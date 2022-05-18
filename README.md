@@ -6,7 +6,7 @@ If you want to contribute monetarily to the creation of the project, you can do 
 Si quieres saber más sobre [ROS](https://www.ros.org/), la instalación y sus paquetes puedes hacer click **[aquí](https://trail-dichondra-73f.notion.site/Robot-Operating-System-ROS-723ce4c7636f431c8746896f83c09882)**
 
 
-#### [Tutorial 01](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-01)
+#### [Tutorial 01](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-01)
 Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura bajo el paradigma de comunicación: **Publisher/Subscriber**
 
  - El **nodoEscritura.py** escribe en el tópico "tutorial01" un mensaje.
@@ -19,7 +19,7 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
 
 ---
 
- #### [Tutorial 02](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-02)
+ #### [Tutorial 02](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-02)
  Corresponde a un breve ejemplo de como enviar mensajes personalizados a partir de un nodo de escritura y lectura bajo el paradigma de comunicación: **Publisher/Subscriber** (El mensaje personalizado se define en el archivo *msg/mensajeCustomizado.msg*)
 
  - El **escritorPersonalizado.py** escribe en el tópico "tutorial02" un mensaje personalizado.
@@ -32,7 +32,7 @@ Corresponde a un breve ejemplo de como construir un nodo de escritura y lectura 
 
 ---
 
-  #### [Tutorial 03](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-03)
+  #### [Tutorial 03](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-03)
 Corresponde a un breve ejemplo de como utilizar un servicio implementado en un servidor, y así el nodo cliente utiliza la información enviada de vuelta a partir del paradigma de comunicación : **Cliente/Servidor** (El servicio personalizado se define en el archivo *srv/servicioPersonalizado.srv*).
 
 - El **servidorPersonalizado.py** es un servidor que recibe un mensaje personalizado y realiza alguna tarea, es importante que el servidor esté corriendo antes del cliente.
@@ -44,7 +44,7 @@ Corresponde a un breve ejemplo de como utilizar un servicio implementado en un s
 
 ---
 
-#### [Tutorial 04](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-04)
+#### [Tutorial 04](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-04)
 Corresponde al primer ejemplo para la creación de un robot aspiradora básico, dónde se utiliza el simulador turtlesim para la simulación de un robot en 2 dimensiones.
 
 Las siguientes líneas de comando corresponden a como **mover el robot en línea recta**, para ello se debe ejecutar los siguientes comandos:
@@ -79,14 +79,14 @@ Las siguientes líneas de comando corresponden a **la combinación de las funcio
 
 ---
 
-#### [Tutorial 05](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-05)
+#### [Tutorial 05](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-05)
 Corresponde a la creación de un archivo para ejecutar múltiples nodos al mismo tiempo (sin la necesidad de ejecutar roscore), este caso, se utilizará para ejecutar el enterno visual de turtlesim y también los comandos de movimiento del robot.
 
   - **Terminal N°1:** ```roslaunch tutorial_ros aspiradora2D.launch```
 
 ---
 
-#### [Tutorial 06 [OPCIONAL]](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-06)
+#### [Tutorial 06 [OPCIONAL]](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-06)
 Corresponde a la lectura de una imagen mediante la librería de python OpenCV (no se utilizará ROS en este tutorial) y así la verificación de que la instalación de OpenCV esté correcta. Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
 El archivo **lecturaArchivo.py** corresponde a la lectura de una imagen guardada en memoria.
@@ -107,7 +107,7 @@ El siguiente archivo corresponde a dibujar elementos o figuras en una imagen o v
 
 ---
 
-#### [Tutorial 07](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-07)
+#### [Tutorial 07](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-07)
 Corresponde a la integración de OpenCV con ROS mediante CvBridge:
  - **Terminal N°1:** ```roscore```
  - **Terminal N°2:** ```rosrun usb_cam usb_cam_node```
@@ -115,7 +115,7 @@ Corresponde a la integración de OpenCV con ROS mediante CvBridge:
 
 ---
 
-#### [Tutorial 08](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-08)
+#### [Tutorial 08](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-08)
 Corresponde a la utilización de la técnica de Thresholding para la segmentación de una imagen. Se probará la técnica Thresholding Básica y Thresholding Adaptada.
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
@@ -124,7 +124,7 @@ Además es necesario ejecutar el archivo directamente desde la carpeta en donde 
 
  ---
 
-#### [Tutorial 09](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-09)
+#### [Tutorial 09](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-09)
 Corresponde a la utilización del formato HSV para detectar un color en específico dentro de una imagen, y luego utilizar una máscara para resaltarlo.
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
@@ -133,7 +133,7 @@ Además es necesario ejecutar el archivo directamente desde la carpeta en donde 
 
  ---
 
-#### [Tutorial 10 [OPCIONAL]](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-10)
+#### [Tutorial 10 [OPCIONAL]](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-10)
 Corresponde a la utilización de la técnica de detección de contornos en una imagen a través de un threshold adaptado o básico. Luego también se cuenta con una función auxiliar
 para el procesamiento de los contornos, por ejemplo, calcular el área de la figura.
 
@@ -143,7 +143,7 @@ Además es necesario ejecutar el archivo directamente desde la carpeta en donde 
 
  ---
 
-#### [Tutorial 11](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-11)
+#### [Tutorial 11](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-11)
 Corresponde a la unión de los últimos 3 tópicos, para identificar una pelota dentro de la imagen, detectar sus contornos y resaltar el centro de esta misma.
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
@@ -154,9 +154,9 @@ Luego con el siguiente comando, se puede traquear la pelota dentro de un video.
 
  - **Terminal N°2:** ```python traquearPelota.py```
 
-#### [Tutorial 12](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-12)
+#### [Tutorial 12](https://github.com/CDonosoK/tutorial_ros/tree/master/src/tutorial-basico/tutorial-12)
 Corresponde a la unión de los últimos 3 tópicos, para identificar una pelota dentro de la imagen, detectar sus contornos y resaltar el centro de esta misma.
 
 Además es necesario ejecutar el archivo directamente desde la carpeta en donde se encuentra.
 
- - **Terminal N°1:** ```python camaraProfundidad.py```
+ - **Terminal N°1:** ```python procesarLidar.py```
