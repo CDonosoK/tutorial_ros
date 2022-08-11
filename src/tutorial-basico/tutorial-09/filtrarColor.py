@@ -9,7 +9,7 @@ imagenOriginal = cv2.imread('./Imagenes/pelotaTenis_1.jpg')
 cv2.imshow('Imagen Original', imagenOriginal)
 
 #Luego se convierte la imagen al formato HSV
-imagenHSV = cv2.cvtColor(imagenOriginal, cv2.COLOR_BGR2HSV)
+imagenHSV = cv2.cvtColor(imagenOriginal, cv2.COLlaunchOR_BGR2HSV)
 cv2.imshow('Imagen HSV', imagenHSV)
 
 #Se delimita el rango en donde estará el color de interés (H, S, V)
